@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Sencilla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculadora">
+        <h1>Calculadora Sencilla</h1>
+        
+        <div class="input-group">
+            <label for="numero1">Primer número:</label>
+            <input type="number" id="numero1" placeholder="Ingrese un número">
+        </div>
+        
+        <div class="input-group">
+            <label for="numero2">Segundo número:</label>
+            <input type="number" id="numero2" placeholder="Ingrese un número">
+        </div>
+        
+        <div class="operaciones">
+            <button class="operacion" data-operacion="suma">Suma (+)</button>
+            <button class="operacion" data-operacion="resta">Resta (-)</button>
+            <button class="operacion" data-operacion="multiplicacion">Multiplicación (×)</button>
+            <button class="operacion" data-operacion="division">División (÷)</button>
+        </div>
+        
+        <button id="calcular">Calcular</button>
+        
+        <div id="resultado"></div>
+    </div>
+    <script src="calculador.js"></script>
+</body>
+</html>
